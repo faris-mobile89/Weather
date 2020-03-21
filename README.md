@@ -1,7 +1,7 @@
 # Weather
 
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) ![badge-platforms][]
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) ![badge-languages][]
 
 Weather app based on openweathermap.org.
 
