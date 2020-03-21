@@ -1,8 +1,7 @@
 # Weather
 
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-[badge-languages]: https://img.shields.io/badge/languages-Swift-orange.svg
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) ![badge-platforms][]
 
 Weather app based on openweathermap.org.
 
@@ -92,7 +91,7 @@ MIT
 
 
 **Free Software, Yallah!**
-
+   [badge-languages]: https://img.shields.io/badge/languages-Swift-orange.svg
    [Moya]: <https://github.com/Moya/Moya>
    [PromiseKit]: <https://github.com/mxcl/PromiseKit>
    [SnapKit]: <https://github.com/SnapKit/SnapKit>
