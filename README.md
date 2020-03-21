@@ -2,6 +2,7 @@
 
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+[badge-languages]: https://img.shields.io/badge/languages-Swift-orange.svg
 
 Weather app based on openweathermap.org.
 
