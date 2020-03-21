@@ -20,6 +20,10 @@ The main purpose of this project is to practice clean architecture approaches an
   - Search for weather forecast by citiy name
   - View 5 days forecast for user's location
 
+### Screenshots
+![Alt text](/../master/App/Resources/demo.jpg?raw=true "Demo")
+
+
 ### Dependencies
 
 Weather uses a number of open source projects to work properly:
