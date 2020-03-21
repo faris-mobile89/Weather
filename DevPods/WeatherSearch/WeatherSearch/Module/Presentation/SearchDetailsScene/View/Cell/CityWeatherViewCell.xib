@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="178" id="KGk-i7-Jjw" customClass="CityWeatherViewCell" customModule="WeatherSearch" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="397" height="178"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="397" height="178"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eBc-gj-hd2">
+                        <rect key="frame" x="10" y="7.5" width="377" height="163"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KLq-ft-5p3">
+                                <rect key="frame" x="20" y="10" width="109" height="31"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPE-bN-UuS">
+                                <rect key="frame" x="331" y="10" width="36" height="41"/>
+                                <string key="text">Wind
+ 10</string>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ega-dT-elx">
+                                <rect key="frame" x="20" y="46" width="57" height="19.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="min max" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9FK-ct-HBL">
+                                <rect key="frame" x="20" y="127" width="72" height="26"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uUE-6D-JVR">
+                                <rect key="frame" x="166.5" y="74" width="44" height="58"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="42"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ega-dT-elx" firstAttribute="top" secondItem="KLq-ft-5p3" secondAttribute="bottom" constant="5" id="Dg2-1u-AHW"/>
+                            <constraint firstItem="9FK-ct-HBL" firstAttribute="leading" secondItem="ega-dT-elx" secondAttribute="leading" id="EDX-28-9rF"/>
+                            <constraint firstItem="KLq-ft-5p3" firstAttribute="leading" secondItem="eBc-gj-hd2" secondAttribute="leading" constant="20" id="GGH-6A-DTU"/>
+                            <constraint firstItem="uUE-6D-JVR" firstAttribute="centerX" secondItem="eBc-gj-hd2" secondAttribute="centerX" id="GHc-De-itI"/>
+                            <constraint firstItem="vPE-bN-UuS" firstAttribute="top" secondItem="KLq-ft-5p3" secondAttribute="top" id="Gkb-Qw-rRZ"/>
+                            <constraint firstAttribute="bottom" secondItem="9FK-ct-HBL" secondAttribute="bottom" constant="10" id="K46-3d-Sg1"/>
+                            <constraint firstAttribute="trailing" secondItem="vPE-bN-UuS" secondAttribute="trailing" constant="10" id="Rto-yX-KTM"/>
+                            <constraint firstItem="KLq-ft-5p3" firstAttribute="top" secondItem="eBc-gj-hd2" secondAttribute="top" constant="10" id="XPW-IJ-XYO"/>
+                            <constraint firstItem="ega-dT-elx" firstAttribute="leading" secondItem="KLq-ft-5p3" secondAttribute="leading" id="iC3-ND-jgD"/>
+                            <constraint firstItem="uUE-6D-JVR" firstAttribute="top" secondItem="ega-dT-elx" secondAttribute="bottom" constant="8.5" id="jbT-WK-Dfw"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="eBc-gj-hd2" secondAttribute="bottom" constant="7.5" id="2IE-SP-6WC"/>
+                    <constraint firstAttribute="trailing" secondItem="eBc-gj-hd2" secondAttribute="trailing" constant="10" id="FSp-6w-INb"/>
+                    <constraint firstItem="eBc-gj-hd2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="KtE-pX-08V"/>
+                    <constraint firstItem="eBc-gj-hd2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7.5" id="nXN-V6-F9k"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="labelCityName" destination="KLq-ft-5p3" id="5c7-Rw-z4v"/>
+                <outlet property="labelDescription" destination="ega-dT-elx" id="j3h-Kz-bok"/>
+                <outlet property="labelMinMax" destination="9FK-ct-HBL" id="ROR-dN-DNz"/>
+                <outlet property="labelTemperature" destination="uUE-6D-JVR" id="BaY-sn-p1R"/>
+                <outlet property="labelWind" destination="vPE-bN-UuS" id="RBY-Ux-jDd"/>
+            </connections>
+            <point key="canvasLocation" x="81.884057971014499" y="124.55357142857142"/>
+        </tableViewCell>
+    </objects>
+</document>
