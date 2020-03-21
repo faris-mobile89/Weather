@@ -1,7 +1,7 @@
 # Weather
 
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) ![badge-languages][]
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 Weather app based on openweathermap.org.
 
@@ -19,6 +19,7 @@ The main purpose of this project is to practice clean architecture approaches an
 
   - Search for weather forecast by citiy name
   - View 5 days forecast for user's location
+
 
 ### Screenshots
 ![Alt text](/../master/App/Resources/demo.jpg?raw=true "Demo")
@@ -91,7 +92,7 @@ MIT
 
 
 **Free Software, Yallah!**
-   [badge-languages]: https://img.shields.io/badge/languages-Swift-orange.svg
+
    [Moya]: <https://github.com/Moya/Moya>
    [PromiseKit]: <https://github.com/mxcl/PromiseKit>
    [SnapKit]: <https://github.com/SnapKit/SnapKit>
