@@ -12,7 +12,7 @@ The main purpose of this project is to practice clean architecture approaches an
   - MVVM Presentation layer
   - Feature based modules
   - Loosely coupled code
-  - Abstracte Implementation
+  - Abstract Implementation
   - Unit Testing
 
 # New Features!
